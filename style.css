@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --dark_grey: #121212;
+    --high_white: rgba(255,255,255,0.87);
+    --medium_white: rgba(255,255,255,0.60);
+    --low_white: rgba(255,255,255,0.38);
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: var(--dark_grey);
+    color: var(--medium_white);
+    min-height: 200vh;
+}
+
+/* NAVBAR */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* UTILITY */
+.hw{
+    color: var(--high_white);
+}
+
+.lw{
+    color: var(--low_white);
+}
+
+.bg-dg{
+    background-color: var(--dark_grey);
+}
+
+.bw{
+    border: 3px solid var(--high_white);
+    object-fit: fill;
+}
+
+/* Media Queries */
+
+/* XS */
+
+@media screen and (max-width: 281px) {
+
+}
+
+/* M */
+@media screen and (min-width: 541px) {
+
+}
+
+/* L */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* XL */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* XXL */
+@media screen and (min-width: 1400px) {
+
+}
